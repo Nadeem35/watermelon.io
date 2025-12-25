@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ffcb05;
+  --color-dark: #363732;
+
+  /* Font Families */
+  --font-saira: "Saira", sans-serif;
+  --font-roboto: "Roboto Condensed", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+/* Apply Saira as the global default font */
+body {
+  font-family: var(--font-saira);
+}
