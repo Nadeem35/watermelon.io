@@ -28,7 +28,7 @@ const Service = () => {
   ];
 
   return (
-    <div id='services' className='bg-primary/5 py-20'>
+    <div id='#services' className='bg-primary/5 py-20'>
       <div className="container mx-auto">
 
         <div className="w-full sm:w-1/2 mx-auto mb-10 text-center text-dark">

@@ -1,7 +1,8 @@
 import { assets } from '../assets/assets'
 const Hero = () => {
   return (
-    <div className='w-full bg-primary/5 py-40'>
+    <div id='#home' className=" bg-primary/5 py-30">
+      {/* <div className='w-full'> */}
       <div className="container mx-auto w-full px-10">
         <div className="w-fit px-2 py-1 text-dark/80 border border-primary rounded-full flex flex-wrap justify-center items-center mx-auto text-center">
           <div className="flex items-center -space-x-3">
@@ -21,9 +22,10 @@ const Hero = () => {
         </div>
 
         <div className="max-w-5xl flex mx-auto justify-center items-center overflow-hidden">
-          <img className='w-full h-full object-cover rounded-xl' src={assets.heroImg} alt="hero-image" />
+          <img className='w-fit object-cover rounded-xl' src={assets.heroImg} alt="hero-image" />
         </div>
       </div>
+      {/* </div> */}
     </div>
   )
 }

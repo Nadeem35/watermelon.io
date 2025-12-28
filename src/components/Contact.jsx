@@ -1,4 +1,6 @@
 import { FaArrowRight, FaUser } from 'react-icons/fa'
+import { GrMail } from 'react-icons/gr'
+import { MdEmail } from 'react-icons/md'
 
 const Contact = () => {
   return (
@@ -17,8 +19,7 @@ const Contact = () => {
                   <label htmlFor="" className='block text-dark mb-2'>Name</label>
                   <div className="flex items-center gap-4 p-2 border border-dark/30 rounded ">
                     {/* Name */}
-                    <FaUser />
-
+                    <FaUser size={15} />
                     <input type="text" placeholder='Enter your name' className='w-full text-sm outline-none' />
                   </div>
                 </div>
@@ -27,6 +28,7 @@ const Contact = () => {
                   <label htmlFor="" className='block text-dark mb-2'>Email</label>
                   <div className="flex items-center gap-4 p-2 border border-dark/30 rounded ">
                     {/* Email */}
+                    <GrMail size={20} />
                     <input type="text" placeholder='Enter your email' className='w-full text-sm outline-none' />
                   </div>
                 </div>
@@ -36,7 +38,7 @@ const Contact = () => {
                 <label htmlFor="" className='block text-dark mb-2'>Your message</label>
                 <div className="flex items-center gap-4 p-2 border border-dark/30 rounded ">
                   {/* Email */}
-                  <textarea name="" id="" placeholder='Enter your message' className='w-full text-sm h-50 outline-none'></textarea>
+                  <textarea name="" id="" placeholder='Enter your message' className='w-full text-sm h-30 outline-none'></textarea>
                 </div>
               </div>
 
