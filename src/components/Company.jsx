@@ -2,7 +2,7 @@ import { FaApple, FaFacebook, FaGoogle, FaGoogleDrive, FaInstagram, FaLinkedin, 
 
 const Company = () => {
   return (
-    <div id='#company' className='py-20'>
+    <div id='/company' className='py-20'>
       <div className="bg-white px-3">
         <div className="container mx-auto">
           <h2 className='text-center text-2xl text-dark'>Trusted by leading companies</h2>

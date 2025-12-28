@@ -1,7 +1,7 @@
 import { assets } from '../assets/assets'
 const Hero = () => {
   return (
-    <div id='#home' className=" bg-primary/5 py-30">
+    <div id='/home' className=" bg-primary/5 py-30">
       {/* <div className='w-full'> */}
       <div className="container mx-auto w-full px-10">
         <div className="w-fit px-2 py-1 text-dark/80 border border-primary rounded-full flex flex-wrap justify-center items-center mx-auto text-center">

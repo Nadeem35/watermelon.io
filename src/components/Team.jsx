@@ -15,7 +15,7 @@ const Team = () => {
   ]
   return (
     <>
-      <div id='team' className="py-20 bg-primary/5">
+      <div id='/team' className="py-20 bg-primary/5">
         <div className="container mx-auto px-6 sm:px-12 md:px-24 lg:px-40">
           <div className="w-full sm:w-1/2 text-center mx-auto">
             <h1 className='text-5xl text-dark pb-2 '>Meet the Team</h1>

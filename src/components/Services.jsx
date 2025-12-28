@@ -28,9 +28,8 @@ const Service = () => {
   ];
 
   return (
-    <div id='#services' className='bg-primary/5 py-20'>
+    <div id='services' className='bg-primary/5 py-20'>
       <div className="container mx-auto">
-
         <div className="w-full sm:w-1/2 mx-auto mb-10 text-center text-dark">
           <h1 className='text-5xl'>How we can Help you? </h1>
           <p className='py-5 text-xl text-dark/60'>Whether you're launching a new business or looking to elevate your existing brand.</p>

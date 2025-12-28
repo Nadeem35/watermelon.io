@@ -5,19 +5,21 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-      <div id='footer' className="pt-20 pb-5 bg-primary/5">
+      <div id='/footer' className="pt-20 pb-5 bg-primary/5">
         <div className="container mx-auto px-6 sm:px-12 md:px-24 lg:px-40">
           <div className="grid gap-10 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
             <div className="w-fit">
-              <h1 className='text-3xl text-dark font-bold'>BrightMater.io</h1>
+              <h1 className='text-3xl text-dark font-bold cursor-pointer'>
+                <Link to="/home">BrightMater.io</Link>
+              </h1>
               <p className='h-4 w-4 bg-primary rounded-full'></p>
               <p className='mt-5 text-dark/60 '>Whether you're launching a new business or looking to elevate your existing brand.</p>
 
               <div className="w-auto py-5 flex flex-wrap justify-between items-center font-semibold text-dark/60">
-                <Link className="hover:hover:text-primary transition" to="#home">Home</Link>
-                <Link className="hover:hover:text-primary transition" to="#service">Services</Link>
-                <Link className="hover:hover:text-primary transition" to="#our-work">Our Work</Link>
-                <Link className="hover:hover:text-primary transition" to="#contact">Contact Us</Link>
+                <Link className="hover:hover:text-primary transition" to="/home">Home</Link>
+                <Link className="hover:hover:text-primary transition" to="/service">Services</Link>
+                <Link className="hover:hover:text-primary transition" to="/our-work">Our Work</Link>
+                <Link className="hover:hover:text-primary transition" to="/contact">Contact Us</Link>
               </div>
             </div >
             <div className="">
