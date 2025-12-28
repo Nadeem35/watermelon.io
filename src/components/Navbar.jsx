@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-// import { FiArrowRight } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(true)
+  const [showMenu, setShowMenu] = useState(false)
   return (
-    <div className='w-full fixed top-0 backdrop-blur-2xl'>
+    <div className='w-full fixed top-0 backdrop-blur-2xl z-50'>
       <div className="flex justify-between items-center px-6 py-5 sm:px-12 md:px-24 lg:px-40 bg-bue-400">
         {/* Left lgog */}
         <div className="">
@@ -54,7 +53,7 @@ const Navbar = () => {
           // )
 
           showMenu && (
-            <div className="fixed md:hidden flex flex-col justify-center items-center w-70 space-y-6 h-screen bg-primary/30 top-0 right-0 font-semibold">
+            <div className="fixed md:hidden flex flex-col justify-center items-center w-70 space-y-6 h-screen bg-primary/90 top-0 right-0 font-semibold">
               <Link onClick={() => setShowMenu(!showMenu)} to="/" className="hover:text-primary">Home</Link>
               <Link onClick={() => setShowMenu(!showMenu)} to="/service" className="hover:text-primary">Service</Link>
               <Link onClick={() => setShowMenu(!showMenu)} to="/our-work" className="hover:text-primary">Our Work</Link>

@@ -1,10 +1,52 @@
-import React from 'react'
+import { FaArrowRight, FaUser } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div>
-      <p className='text-3xl'>Lorem ipsum dol Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam molestiae omnis neque dicta est quam quidem, enim, sint eius unde praesentium libero Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel dignissimos exercitationem sequi pariatur et qui, quidem voluptates in sit deleniti libero consequuntur tempora tenetur enim. Aut magnam doloremque a suscipit. voluptates quisquam! Ducimus error ex minima distinctio esse? </p>
-    </div>
+    <>
+      <div id='#contact' className="py-10">
+        <div className="container mx-auto px-6 sm:px-12 md:px-24 lg:px-40">
+          <div className="w-full sm:w-1/2 text-center mx-auto px-6">
+            <h1 className='text-5xl text-dark'>Reach out to us</h1>
+            <p className='text-dark/60 py-5'>Let’s talk! Whether it’s a quick question or a big project, we’re just a message away.</p>
+          </div>
+          <div className="max-w-2xl mx-auto">
+            <form action="">
+              <div className="gap-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
+
+                <div className="">
+                  <label htmlFor="" className='block text-dark mb-2'>Name</label>
+                  <div className="flex items-center gap-4 p-2 border border-dark/30 rounded ">
+                    {/* Name */}
+                    <FaUser />
+
+                    <input type="text" placeholder='Enter your name' className='w-full text-sm outline-none' />
+                  </div>
+                </div>
+
+                <div className="">
+                  <label htmlFor="" className='block text-dark mb-2'>Email</label>
+                  <div className="flex items-center gap-4 p-2 border border-dark/30 rounded ">
+                    {/* Email */}
+                    <input type="text" placeholder='Enter your email' className='w-full text-sm outline-none' />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-7">
+                <label htmlFor="" className='block text-dark mb-2'>Your message</label>
+                <div className="flex items-center gap-4 p-2 border border-dark/30 rounded ">
+                  {/* Email */}
+                  <textarea name="" id="" placeholder='Enter your message' className='w-full text-sm h-50 outline-none'></textarea>
+                </div>
+              </div>
+
+              <button className='bg-primary hover:bg-primary/90 text-dark mt-5 px-5 py-2 rounded font-semibold cursor-pointer flex justify-center items-center'>Submit <FaArrowRight className='ml-3' />
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
