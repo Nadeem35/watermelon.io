@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid gap-10 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
             <div className="w-fit">
               <h1 className='text-3xl text-dark font-bold cursor-pointer'>
-                <Link to="/home">BrightMater.io</Link>
+                <Link to="/home">Watermelon.io</Link>
               </h1>
               <p className='h-4 w-4 bg-primary rounded-full'></p>
               <p className='mt-5 text-dark/60 '>Whether you're launching a new business or looking to elevate your existing brand.</p>

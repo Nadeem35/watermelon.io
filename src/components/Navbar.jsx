@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <div className='w-full fixed top-0 backdrop-blur-2xl z-50'>
       <div className="flex justify-between items-center px-6 py-5 sm:px-12 md:px-24 lg:px-40 bg-bue-400">
-        {/* Left lgog */}
+        {/* Left logo */}
         <div className="">
-          <span className='text-3xl font-bold text-dark'>BrightMatter.io</span>
+          <span className='text-3xl font-bold text-dark'>Watermelon.io</span>
           <div className="w-4 h-4 bg-primary rounded-full"></div>
         </div>
 
@@ -43,15 +43,6 @@ const Navbar = () => {
 
         {/* Mobile menu nav */}
         {
-          // showMenu && (
-          //   <div className="flex flex-col justify-center items-center w-70 top-0 right-0 h-screen space-y-5 md:hidden fixed bg-primary/50 ">
-          //     <Link to="/" className="hover:text-primary">Home</Link>
-          //     <Link to="/service" className="hover:text-primary">Service</Link>
-          //     <Link to="/our-work" className="hover:text-primary">Our Work</Link>
-          //     <Link to="/contact" className="hover:text-primary">Contact</Link>
-          //   </div>
-          // )
-
           showMenu && (
             <div className="fixed md:hidden flex flex-col justify-center items-center w-70 space-y-6 h-screen bg-primary/90 top-0 right-0 font-semibold">
               <Link onClick={() => setShowMenu(!showMenu)} to="/" className="hover:text-primary">Home</Link>

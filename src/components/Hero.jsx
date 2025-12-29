@@ -13,14 +13,12 @@ const Hero = () => {
             </div>
             <span className='ml-3'>Trusted by 20k+ users</span>
           </div>
-
           <h1 className='text-center py-5 text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>We Help Brands Grow With <span className='text-primary'> Performance </span> Marketing</h1>
           <p className='max-w-xl font-thin mx-auto text-2xl text-dark/70 text-center'>At our agency, we take pride in delivering impactful solutions that combine creativity, strategy, and technology.</p>
           <div className="py-10 px-3 gap-5 flex flex-wrap justify-center items-center font-semibold">
             <button className='px-8 py-3 bg-primary hover:bg-primary/90 cursor-pointer rounded-full'>Contact Me</button>
             <button className='px-8 py-3 bg-dark hover:bg-dark/90 rounded-full cursor-pointer text-amber-50'>Digital Market</button>
           </div>
-
           <div className="max-w-5xl flex mx-auto justify-center items-center overflow-hidden">
             <img className='w-fit object-cover rounded-xl' src={assets.heroImg} alt="hero-image" />
           </div>
