@@ -16,7 +16,7 @@ const Footer = () => {
               <p className='mt-5 text-dark/60 '>Whether you're launching a new business or looking to elevate your existing brand.</p>
 
               <div className="w-auto py-5 flex flex-wrap justify-between items-center font-semibold text-dark/60">
-                <Link className="hover:hover:text-primary transition" to="/home">Home</Link>
+                <Link className="hover:hover:text-primary transition" to="/">Home</Link>
                 <Link className="hover:hover:text-primary transition" to="/service">Services</Link>
                 <Link className="hover:hover:text-primary transition" to="/our-work">Our Work</Link>
                 <Link className="hover:hover:text-primary transition" to="/contact">Contact Us</Link>
@@ -28,7 +28,7 @@ const Footer = () => {
 
               <div className="mt-5 flex justify-center items-center">
                 <div className="w-full border border-dark/60 rounded p-2">
-                  <input type="mail" placeholder='Enter your email' className='text-sm outline-none w-full' px-5 />
+                  <input type="mail" placeholder='Enter your email' className='text-sm outline-none w-full' />
                 </div>
                 <button className='ml-2 bg-primary hover:bg-primary/90 text-dark px-5 py-2 rounded font-semibold cursor-pointer flex justify-center items-center'>Subscribe</button>
               </div>
@@ -61,7 +61,6 @@ const Footer = () => {
             <span className='text-red-500'>
               <RiHeart3Fill />
             </span>
-            {/* <h1>N4deem</h1> */}
             <a
               href="https://github.com/Nadeem35"
               target="_blank"

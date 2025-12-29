@@ -15,6 +15,15 @@ import work5Img from "../assets/work5.jpg";
 import work6Img from "../assets/work6.jpg";
 
 import { FaBullhorn, FaCode, FaMobileAlt, FaPaintBrush } from "react-icons/fa";
+import {
+  FaApple,
+  FaFacebook,
+  FaGoogle,
+  FaGoogleDrive,
+  FaInstagram,
+  FaLinkedin,
+  FaMicrosoft,
+} from "react-icons/fa6";
 
 export const assets = {
   profile1Img,
@@ -33,6 +42,30 @@ export const assets = {
   work5Img,
   work6Img,
 };
+
+export const company = [
+  {
+    icons: FaMicrosoft,
+  },
+  {
+    icons: FaFacebook,
+  },
+  {
+    icons: FaLinkedin,
+  },
+  {
+    icons: FaApple,
+  },
+  {
+    icons: FaInstagram,
+  },
+  {
+    icons: FaGoogle,
+  },
+  {
+    icons: FaGoogleDrive,
+  },
+];
 
 export const teams = [
   {
