@@ -1,6 +1,6 @@
-import { FaFacebookF, FaGoogle, FaInstagram, FaTwitter } from 'react-icons/fa'
 import { RiHeart3Fill } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
+import { footerIcons } from '../assets/assets'
 
 const Footer = () => {
   return (
@@ -48,11 +48,15 @@ const Footer = () => {
               </a>{" "}
               - All Right Reserved.
             </p>
-            <div className="gap-5 text-primary cursor-pointer flex justify-center items-center mt-5 lg:mt-0 lg:justify-self-end">
-              <FaFacebookF size={25} className='hover:scale-115 transition' />
-              <FaTwitter size={25} className='hover:scale-115 transition' />
-              <FaInstagram size={25} className='hover:scale-115 transition' />
-              <FaGoogle size={25} className='hover:scale-115 transition' />
+            <div className="flex gap-5 justify-center items-center mt-5 lg:mt-0 lg:justify-self-end">
+              {footerIcons.map((item, index) => (
+                <span
+                  key={index}
+                  className="text-primary cursor-pointer transition transform hover:scale-110"
+                >
+                  <item.icon size={25} />
+                </span>
+              ))}
             </div>
           </div>
           <hr className='w-full text-dark/60 mt-6' />

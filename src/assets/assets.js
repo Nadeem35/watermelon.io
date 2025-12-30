@@ -14,7 +14,14 @@ import work4Img from "../assets/work4.jpg";
 import work5Img from "../assets/work5.jpg";
 import work6Img from "../assets/work6.jpg";
 
-import { FaBullhorn, FaCode, FaMobileAlt, FaPaintBrush } from "react-icons/fa";
+import {
+  FaBullhorn,
+  FaCode,
+  FaFacebookF,
+  FaMobileAlt,
+  FaPaintBrush,
+  FaTwitter,
+} from "react-icons/fa";
 import {
   FaApple,
   FaFacebook,
@@ -65,6 +72,13 @@ export const company = [
   {
     icons: FaGoogleDrive,
   },
+];
+
+export const footerIcons = [
+  { icon: FaFacebookF },
+  { icon: FaTwitter },
+  { icon: FaInstagram },
+  { icon: FaGoogle },
 ];
 
 export const teams = [
